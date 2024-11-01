@@ -51,7 +51,7 @@
     "@babel/plugin-syntax-flow": "^7.22.5",
     "@babel/plugin-transform-react-jsx": "^7.22.15",
     "@types/jest": "^29.5.5",
-    "@types/node": "^20.8.2",
+    "@types/node": "^22.0.0",
     "@types/node-sass": "^4.11.5",
     "@types/react": "^18.2.24",
     "@types/react-count-to": "^0.12.1",
