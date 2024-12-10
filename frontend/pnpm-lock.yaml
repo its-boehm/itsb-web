@@ -22,52 +22,52 @@ importers:
         version: 6.4.2
       '@fortawesome/react-fontawesome':
         specifier: ^0.2.0
-        version: 0.2.0(@fortawesome/fontawesome-svg-core@6.4.2)(react@18.2.0)
+        version: 0.2.0(@fortawesome/fontawesome-svg-core@6.4.2)(react@19.0.0)
       animate.css:
         specifier: ^4.1.1
         version: 4.1.1
       nuka-carousel:
         specifier: ^8.0.0
-        version: 8.0.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 8.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       react:
-        specifier: ^18.2.0
-        version: 18.2.0
+        specifier: ^19.0.0
+        version: 19.0.0
       react-countup:
         specifier: ^6.4.2
-        version: 6.4.2(@babel/core@7.23.0)(@types/babel__core@7.20.2)(react@18.2.0)(rollup@2.79.2)
+        version: 6.4.2(@babel/core@7.23.0)(@types/babel__core@7.20.2)(react@19.0.0)(rollup@2.79.2)
       react-dom:
-        specifier: ^18.2.0
-        version: 18.2.0(react@18.2.0)
+        specifier: ^19.0.0
+        version: 19.0.0(react@19.0.0)
       react-gtm-module:
         specifier: ^2.0.11
         version: 2.0.11
       react-helmet-async:
         specifier: ^2.0.1
-        version: 2.0.4(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 2.0.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       react-router:
         specifier: ^6.16.0
-        version: 6.16.0(react@18.2.0)
+        version: 6.16.0(react@19.0.0)
       react-router-dom:
         specifier: ^6.16.0
-        version: 6.16.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 6.16.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       react-router-hash-link:
         specifier: ^2.4.3
-        version: 2.4.3(react-router-dom@6.16.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)
+        version: 2.4.3(react-router-dom@6.16.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0)
       react-scripts:
         specifier: ^5.0.1
-        version: 5.0.1(@babel/plugin-syntax-flow@7.22.5(@babel/core@7.23.0))(@babel/plugin-transform-react-jsx@7.22.15(@babel/core@7.23.0))(@types/babel__core@7.20.2)(eslint@9.0.0)(node-sass@9.0.0)(react@18.2.0)(type-fest@0.21.3)(typescript@5.2.2)
+        version: 5.0.1(@babel/plugin-syntax-flow@7.22.5(@babel/core@7.23.0))(@babel/plugin-transform-react-jsx@7.22.15(@babel/core@7.23.0))(@types/babel__core@7.20.2)(eslint@9.0.0)(node-sass@9.0.0)(react@19.0.0)(type-fest@0.21.3)(typescript@5.2.2)
       react-scrollspy:
         specifier: ^3.4.3
-        version: 3.4.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 3.4.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       react-transition-group:
         specifier: ^4.4.5
-        version: 4.4.5(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 4.4.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       react-typed:
         specifier: ^2.0.12
-        version: 2.0.12(react@18.2.0)
+        version: 2.0.12(react@19.0.0)
       react-waypoint:
         specifier: ^10.3.0
-        version: 10.3.0(react@18.2.0)
+        version: 10.3.0(react@19.0.0)
     devDependencies:
       '@babel/core':
         specifier: ^7.23.0
@@ -91,14 +91,14 @@ importers:
         specifier: ^4.11.5
         version: 4.11.5
       '@types/react':
-        specifier: ^18.2.24
-        version: 18.2.24
+        specifier: ^19.0.0
+        version: 19.0.1
       '@types/react-count-to':
         specifier: ^0.12.1
         version: 0.12.1
       '@types/react-dom':
-        specifier: ^18.2.8
-        version: 18.2.8
+        specifier: ^19.0.0
+        version: 19.0.2(@types/react@19.0.1)
       '@types/react-gtm-module':
         specifier: ^2.0.1
         version: 2.0.1
@@ -151,8 +151,8 @@ importers:
         specifier: ^7.33.2
         version: 7.33.2(eslint@9.0.0)
       eslint-plugin-react-hooks:
-        specifier: ^4.6.0
-        version: 4.6.0(eslint@9.0.0)
+        specifier: ^5.0.0
+        version: 5.1.0(eslint@9.0.0)
       node-sass:
         specifier: ^9.0.0
         version: 9.0.0
@@ -1592,9 +1592,6 @@ packages:
   '@types/prettier@2.7.3':
     resolution: {integrity: sha512-+68kP9yzs4LMp7VNh8gdzMSPZFL44MLGqiHWvttYJe+6qnuVr4Ek9wSBQoveqY/r+LwjCcU29kNVkidwim+kYA==}
 
-  '@types/prop-types@15.7.8':
-    resolution: {integrity: sha512-kMpQpfZKSCBqltAJwskgePRaYRFukDkm1oItcAbC3gNELR20XIBcN9VRgg4+m8DKsTfkWeA4m4Imp4DDuWy7FQ==}
-
   '@types/q@1.5.6':
     resolution: {integrity: sha512-IKjZ8RjTSwD4/YG+2gtj7BPFRB/lNbWKTiSj3M7U/TD2B7HfYCxvp2Zz6xA2WIY7pAuL1QOUPw8gQRbUrrq4fQ==}
 
@@ -1607,8 +1604,10 @@ packages:
   '@types/react-count-to@0.12.1':
     resolution: {integrity: sha512-HUCJqV//8Px9x03tfAosD3AJDs9yo9rIVXOw3crDkr9JDIvLjrWv6IApdwJrQwBIZSGSuxIwjTc3t2LJ8bph8A==}
 
-  '@types/react-dom@18.2.8':
-    resolution: {integrity: sha512-bAIvO5lN/U8sPGvs1Xm61rlRHHaq5rp5N3kp9C+NJ/Q41P8iqjkXSu0+/qu8POsjH9pNWb0OYabFez7taP7omw==}
+  '@types/react-dom@19.0.2':
+    resolution: {integrity: sha512-c1s+7TKFaDRRxr1TxccIX2u7sfCnc3RxkVyBIUA2lCpyqCF+QoAwQ/CBg7bsMdVwP120HEH143VQezKtef5nCg==}
+    peerDependencies:
+      '@types/react': ^19.0.0
 
   '@types/react-gtm-module@2.0.1':
     resolution: {integrity: sha512-T/DN9gAbCYk5wJ1nxf4pSwmXz4d1iVjM++OoG+mwMfz9STMAotGjSb65gJHOS5bPvl6vLSsJnuC+y/43OQrltg==}
@@ -1628,8 +1627,8 @@ packages:
   '@types/react-transition-group@4.4.7':
     resolution: {integrity: sha512-ICCyBl5mvyqYp8Qeq9B5G/fyBSRC0zx3XM3sCC6KkcMsNeAHqXBKkmat4GqdJET5jtYUpZXrxI5flve5qhi2Eg==}
 
-  '@types/react@18.2.24':
-    resolution: {integrity: sha512-Ee0Jt4sbJxMu1iDcetZEIKQr99J1Zfb6D4F3qfUWoR1JpInkY1Wdg4WwCyBjL257D0+jGqSl1twBjV8iCaC0Aw==}
+  '@types/react@19.0.1':
+    resolution: {integrity: sha512-YW6614BDhqbpR5KtUYzTA+zlA7nayzJRA9ljz9CQoxthR0sDisYZLuvSMsil36t4EH/uAt8T52Xb4sVw17G+SQ==}
 
   '@types/resolve@1.17.1':
     resolution: {integrity: sha512-yy7HuzQhj0dhGpD8RLXSZWEkLsV9ibvxvi6EiJ3bkqLAO1RGo0WbkWQiwpRlSFymTJRz0d3k5LM3kkx8ArDbLw==}
@@ -1639,9 +1638,6 @@ packages:
 
   '@types/retry@0.12.0':
     resolution: {integrity: sha512-wWKOClTTiizcZhXnPY4wikVAwmdYHp8q6DmC+EJUzAMsycb7HB32Kh9RN4+0gExjmPmZSAQjgURXIGATPegAvA==}
-
-  '@types/scheduler@0.16.4':
-    resolution: {integrity: sha512-2L9ifAGl7wmXwP4v3pN4p2FLhD0O1qsJpvKmNin5VA8+UvNVb447UDaAEV6UdrkA+m/Xs58U1RFps44x6TFsVQ==}
 
   '@types/semver@7.5.3':
     resolution: {integrity: sha512-OxepLK9EuNEIPxWNME+C6WwbRAOOI2o2BaQEGzz5Lu2e4Z5eDnEo+/aVEDMIXywoJitJ7xWd641wrGLZdtwRyw==}
@@ -3461,6 +3457,12 @@ packages:
     engines: {node: '>=10'}
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
+
+  eslint-plugin-react-hooks@5.1.0:
+    resolution: {integrity: sha512-mpJRtPgHN2tNAvZ35AMfqeB3Xqeo273QxrHJsbBEPWODRM4r0yB6jfoROqKEYrOn27UtRPpcpHc2UqyBSuUNTw==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0
 
   eslint-plugin-react@7.33.2:
     resolution: {integrity: sha512-73QQMKALArI8/7xGLNI/3LylrEYrlKZSb5C9+q3OtOewTnMQi5cT+aE9E41sLCmli3I9PGGmD1yiZydyo4FEPw==}
@@ -6841,10 +6843,10 @@ packages:
       typescript:
         optional: true
 
-  react-dom@18.2.0:
-    resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
+  react-dom@19.0.0:
+    resolution: {integrity: sha512-4GV5sHFG0e/0AD4X+ySy6UJd3jVl1iNsNHdpad0qhABJ11twS3TTBnseqsKurKcsNqCEFeGL3uLpVChpIO3QfQ==}
     peerDependencies:
-      react: ^18.2.0
+      react: ^19.0.0
 
   react-error-overlay@6.0.11:
     resolution: {integrity: sha512-/6UZ2qgEyH2aqzYZgQPxEnz33NJ2gNsnHA2o5+o4wW9bLM/JYQitNP9xPhsXwC08hMMovfGe/8retsdDsczPRg==}
@@ -6928,8 +6930,8 @@ packages:
     peerDependencies:
       react: ^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
 
-  react@18.2.0:
-    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
+  react@19.0.0:
+    resolution: {integrity: sha512-V8AVnmPIICiWpGfm6GLzCR/W5FXLchHop40W4nXBmdlEceh16rCN8O8LNWm5bh5XUX91fh7KpA+W0TgMKmgTpQ==}
     engines: {node: '>=0.10.0'}
 
   read-cache@1.0.0:
@@ -7289,8 +7291,8 @@ packages:
     resolution: {integrity: sha512-5LBh1Tls8c9xgGjw3QrMwETmTMVk0oFgvrFSvWx62llR2hcEInrKNZ2GZCCuuy2lvWrdl5jhbpeqc5hRYKFOcw==}
     engines: {node: '>=10'}
 
-  scheduler@0.23.0:
-    resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
+  scheduler@0.25.0:
+    resolution: {integrity: sha512-xFVuu11jh+xcO7JOAGJNOXld8/TcEHK/4CituBUeUb5hqxJLj9YuemAEuvm9gQ/+pgXYfbQuqAkiYu+u7YEsNA==}
 
   schema-utils@2.7.0:
     resolution: {integrity: sha512-0ilKFI6QQF5nxDZLFn2dMjvc4hjg/Wkg7rHd3jK6/A4a1Hl9VFdQWvgB1UMGoU94pad1P/8N7fMcEnLnSiju8A==}
@@ -9736,11 +9738,11 @@ snapshots:
     dependencies:
       '@fortawesome/fontawesome-common-types': 6.4.2
 
-  '@fortawesome/react-fontawesome@0.2.0(@fortawesome/fontawesome-svg-core@6.4.2)(react@18.2.0)':
+  '@fortawesome/react-fontawesome@0.2.0(@fortawesome/fontawesome-svg-core@6.4.2)(react@19.0.0)':
     dependencies:
       '@fortawesome/fontawesome-svg-core': 6.4.2
       prop-types: 15.8.1
-      react: 18.2.0
+      react: 19.0.0
 
   '@gar/promisify@1.1.3': {}
 
@@ -10361,8 +10363,6 @@ snapshots:
 
   '@types/prettier@2.7.3': {}
 
-  '@types/prop-types@15.7.8': {}
-
   '@types/q@1.5.6': {}
 
   '@types/qs@6.9.8': {}
@@ -10371,43 +10371,41 @@ snapshots:
 
   '@types/react-count-to@0.12.1':
     dependencies:
-      '@types/react': 18.2.24
+      '@types/react': 19.0.1
 
-  '@types/react-dom@18.2.8':
+  '@types/react-dom@19.0.2(@types/react@19.0.1)':
     dependencies:
-      '@types/react': 18.2.24
+      '@types/react': 19.0.1
 
   '@types/react-gtm-module@2.0.1': {}
 
   '@types/react-router-dom@5.3.3':
     dependencies:
       '@types/history': 4.7.11
-      '@types/react': 18.2.24
+      '@types/react': 19.0.1
       '@types/react-router': 5.1.20
 
   '@types/react-router-hash-link@2.4.7':
     dependencies:
       '@types/history': 4.7.11
-      '@types/react': 18.2.24
+      '@types/react': 19.0.1
       '@types/react-router-dom': 5.3.3
 
   '@types/react-router@5.1.20':
     dependencies:
       '@types/history': 4.7.11
-      '@types/react': 18.2.24
+      '@types/react': 19.0.1
 
   '@types/react-scrollspy@3.3.6':
     dependencies:
-      '@types/react': 18.2.24
+      '@types/react': 19.0.1
 
   '@types/react-transition-group@4.4.7':
     dependencies:
-      '@types/react': 18.2.24
+      '@types/react': 19.0.1
 
-  '@types/react@18.2.24':
+  '@types/react@19.0.1':
     dependencies:
-      '@types/prop-types': 15.7.8
-      '@types/scheduler': 0.16.4
       csstype: 3.1.2
 
   '@types/resolve@1.17.1':
@@ -10419,8 +10417,6 @@ snapshots:
       '@types/node': 20.8.2
 
   '@types/retry@0.12.0': {}
-
-  '@types/scheduler@0.16.4': {}
 
   '@types/semver@7.5.3': {}
 
@@ -12344,11 +12340,11 @@ snapshots:
       - jest
       - supports-color
 
-  eslint-config-semistandard@17.0.0(eslint-config-standard@17.0.0(eslint-plugin-import@2.28.1(@typescript-eslint/parser@8.0.1(eslint@9.0.0)(typescript@5.2.2))(eslint@8.50.0))(eslint-plugin-n@15.7.0(eslint@8.50.0))(eslint-plugin-promise@6.1.1(eslint@8.50.0))(eslint@8.50.0))(eslint-plugin-import@2.28.1(@typescript-eslint/parser@8.0.1(eslint@9.0.0)(typescript@5.2.2))(eslint@8.50.0))(eslint-plugin-n@15.7.0(eslint@8.50.0))(eslint-plugin-promise@6.1.1(eslint@8.50.0))(eslint@8.50.0):
+  eslint-config-semistandard@17.0.0(eslint-config-standard@17.0.0(eslint-plugin-import@2.28.1(@typescript-eslint/parser@8.0.1(eslint@9.0.0)(typescript@5.2.2))(eslint@9.0.0))(eslint-plugin-n@15.7.0(eslint@8.50.0))(eslint-plugin-promise@6.1.1(eslint@8.50.0))(eslint@8.50.0))(eslint-plugin-import@2.28.1(@typescript-eslint/parser@8.0.1(eslint@9.0.0)(typescript@5.2.2))(eslint@9.0.0))(eslint-plugin-n@15.7.0(eslint@8.50.0))(eslint-plugin-promise@6.1.1(eslint@8.50.0))(eslint@8.50.0):
     dependencies:
       eslint: 8.50.0
-      eslint-config-standard: 17.0.0(eslint-plugin-import@2.28.1(@typescript-eslint/parser@8.0.1(eslint@9.0.0)(typescript@5.2.2))(eslint@8.50.0))(eslint-plugin-n@15.7.0(eslint@8.50.0))(eslint-plugin-promise@6.1.1(eslint@8.50.0))(eslint@8.50.0)
-      eslint-plugin-import: 2.28.1(@typescript-eslint/parser@8.0.1(eslint@9.0.0)(typescript@5.2.2))(eslint@8.50.0)
+      eslint-config-standard: 17.0.0(eslint-plugin-import@2.28.1(@typescript-eslint/parser@8.0.1(eslint@9.0.0)(typescript@5.2.2))(eslint@9.0.0))(eslint-plugin-n@15.7.0(eslint@8.50.0))(eslint-plugin-promise@6.1.1(eslint@8.50.0))(eslint@8.50.0)
+      eslint-plugin-import: 2.28.1(@typescript-eslint/parser@8.0.1(eslint@9.0.0)(typescript@5.2.2))(eslint@9.0.0)
       eslint-plugin-n: 15.7.0(eslint@8.50.0)
       eslint-plugin-promise: 6.1.1(eslint@8.50.0)
 
@@ -12360,15 +12356,15 @@ snapshots:
       eslint-plugin-n: 17.2.1(eslint@9.0.0)
       eslint-plugin-promise: 7.0.0(eslint@9.0.0)
 
-  eslint-config-standard-jsx@11.0.0(eslint-plugin-react@7.33.2(eslint@8.50.0))(eslint@8.50.0):
+  eslint-config-standard-jsx@11.0.0(eslint-plugin-react@7.33.2(eslint@9.0.0))(eslint@8.50.0):
     dependencies:
       eslint: 8.50.0
-      eslint-plugin-react: 7.33.2(eslint@8.50.0)
+      eslint-plugin-react: 7.33.2(eslint@9.0.0)
 
-  eslint-config-standard@17.0.0(eslint-plugin-import@2.28.1(@typescript-eslint/parser@8.0.1(eslint@9.0.0)(typescript@5.2.2))(eslint@8.50.0))(eslint-plugin-n@15.7.0(eslint@8.50.0))(eslint-plugin-promise@6.1.1(eslint@8.50.0))(eslint@8.50.0):
+  eslint-config-standard@17.0.0(eslint-plugin-import@2.28.1(@typescript-eslint/parser@8.0.1(eslint@9.0.0)(typescript@5.2.2))(eslint@9.0.0))(eslint-plugin-n@15.7.0(eslint@8.50.0))(eslint-plugin-promise@6.1.1(eslint@8.50.0))(eslint@8.50.0):
     dependencies:
       eslint: 8.50.0
-      eslint-plugin-import: 2.28.1(@typescript-eslint/parser@8.0.1(eslint@9.0.0)(typescript@5.2.2))(eslint@8.50.0)
+      eslint-plugin-import: 2.28.1(@typescript-eslint/parser@8.0.1(eslint@9.0.0)(typescript@5.2.2))(eslint@9.0.0)
       eslint-plugin-n: 15.7.0(eslint@8.50.0)
       eslint-plugin-promise: 6.1.1(eslint@8.50.0)
 
@@ -12583,6 +12579,10 @@ snapshots:
       eslint: 9.0.0
 
   eslint-plugin-react-hooks@4.6.0(eslint@9.0.0):
+    dependencies:
+      eslint: 9.0.0
+
+  eslint-plugin-react-hooks@5.1.0(eslint@9.0.0):
     dependencies:
       eslint: 9.0.0
 
@@ -15495,10 +15495,10 @@ snapshots:
     dependencies:
       boolbase: 1.0.0
 
-  nuka-carousel@8.0.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  nuka-carousel@8.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
     dependencies:
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
 
   num2fraction@1.2.2: {}
 
@@ -16667,11 +16667,11 @@ snapshots:
       regenerator-runtime: 0.13.11
       whatwg-fetch: 3.6.19
 
-  react-countup@6.4.2(@babel/core@7.23.0)(@types/babel__core@7.20.2)(react@18.2.0)(rollup@2.79.2):
+  react-countup@6.4.2(@babel/core@7.23.0)(@types/babel__core@7.20.2)(react@19.0.0)(rollup@2.79.2):
     dependencies:
       '@rollup/plugin-babel': 6.0.3(@babel/core@7.23.0)(@types/babel__core@7.20.2)(rollup@2.79.2)
       countup.js: 2.8.0
-      react: 18.2.0
+      react: 19.0.0
     transitivePeerDependencies:
       - '@babel/core'
       - '@types/babel__core'
@@ -16711,11 +16711,10 @@ snapshots:
       - supports-color
       - vue-template-compiler
 
-  react-dom@18.2.0(react@18.2.0):
+  react-dom@19.0.0(react@19.0.0):
     dependencies:
-      loose-envify: 1.4.0
-      react: 18.2.0
-      scheduler: 0.23.0
+      react: 19.0.0
+      scheduler: 0.25.0
 
   react-error-overlay@6.0.11: {}
 
@@ -16723,11 +16722,11 @@ snapshots:
 
   react-gtm-module@2.0.11: {}
 
-  react-helmet-async@2.0.4(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  react-helmet-async@2.0.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
     dependencies:
       invariant: 2.2.4
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
       react-fast-compare: 3.2.2
       shallowequal: 1.1.0
 
@@ -16739,25 +16738,25 @@ snapshots:
 
   react-refresh@0.11.0: {}
 
-  react-router-dom@6.16.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  react-router-dom@6.16.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
     dependencies:
       '@remix-run/router': 1.9.0
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-      react-router: 6.16.0(react@18.2.0)
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      react-router: 6.16.0(react@19.0.0)
 
-  react-router-hash-link@2.4.3(react-router-dom@6.16.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0):
+  react-router-hash-link@2.4.3(react-router-dom@6.16.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0):
     dependencies:
       prop-types: 15.8.1
-      react: 18.2.0
-      react-router-dom: 6.16.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      react: 19.0.0
+      react-router-dom: 6.16.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
 
-  react-router@6.16.0(react@18.2.0):
+  react-router@6.16.0(react@19.0.0):
     dependencies:
       '@remix-run/router': 1.9.0
-      react: 18.2.0
+      react: 19.0.0
 
-  react-scripts@5.0.1(@babel/plugin-syntax-flow@7.22.5(@babel/core@7.23.0))(@babel/plugin-transform-react-jsx@7.22.15(@babel/core@7.23.0))(@types/babel__core@7.20.2)(eslint@9.0.0)(node-sass@9.0.0)(react@18.2.0)(type-fest@0.21.3)(typescript@5.2.2):
+  react-scripts@5.0.1(@babel/plugin-syntax-flow@7.22.5(@babel/core@7.23.0))(@babel/plugin-transform-react-jsx@7.22.15(@babel/core@7.23.0))(@types/babel__core@7.20.2)(eslint@9.0.0)(node-sass@9.0.0)(react@19.0.0)(type-fest@0.21.3)(typescript@5.2.2):
     dependencies:
       '@babel/core': 7.23.0
       '@pmmmwh/react-refresh-webpack-plugin': 0.5.11(react-refresh@0.11.0)(type-fest@0.21.3)(webpack-dev-server@4.15.1(webpack@5.88.2))(webpack@5.88.2)
@@ -16791,7 +16790,7 @@ snapshots:
       postcss-normalize: 10.0.1(browserslist@4.22.1)(postcss@8.4.31)
       postcss-preset-env: 7.8.3(postcss@8.4.31)
       prompts: 2.4.2
-      react: 18.2.0
+      react: 19.0.0
       react-app-polyfill: 3.0.0
       react-dev-utils: 12.0.1(eslint@9.0.0)(typescript@5.2.2)(webpack@5.88.2)
       react-refresh: 0.11.0
@@ -16843,39 +16842,37 @@ snapshots:
       - webpack-hot-middleware
       - webpack-plugin-serve
 
-  react-scrollspy@3.4.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  react-scrollspy@3.4.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
     dependencies:
       babel-runtime: 6.26.0
       classnames: 2.3.2
       prop-types: 15.8.1
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
 
-  react-transition-group@4.4.5(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  react-transition-group@4.4.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
     dependencies:
       '@babel/runtime': 7.23.1
       dom-helpers: 5.2.1
       loose-envify: 1.4.0
       prop-types: 15.8.1
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
 
-  react-typed@2.0.12(react@18.2.0):
+  react-typed@2.0.12(react@19.0.0):
     dependencies:
-      react: 18.2.0
+      react: 19.0.0
       typed.js: 2.1.0
 
-  react-waypoint@10.3.0(react@18.2.0):
+  react-waypoint@10.3.0(react@19.0.0):
     dependencies:
       '@babel/runtime': 7.23.1
       consolidated-events: 2.0.2
       prop-types: 15.8.1
-      react: 18.2.0
+      react: 19.0.0
       react-is: 18.2.0
 
-  react@18.2.0:
-    dependencies:
-      loose-envify: 1.4.0
+  react@19.0.0: {}
 
   read-cache@1.0.0:
     dependencies:
@@ -17309,9 +17306,7 @@ snapshots:
     dependencies:
       xmlchars: 2.2.0
 
-  scheduler@0.23.0:
-    dependencies:
-      loose-envify: 1.4.0
+  scheduler@0.25.0: {}
 
   schema-utils@2.7.0:
     dependencies:
@@ -17352,9 +17347,9 @@ snapshots:
   semistandard@17.0.0(@typescript-eslint/parser@8.0.1(eslint@9.0.0)(typescript@5.2.2)):
     dependencies:
       eslint: 8.50.0
-      eslint-config-semistandard: 17.0.0(eslint-config-standard@17.0.0(eslint-plugin-import@2.28.1(@typescript-eslint/parser@8.0.1(eslint@9.0.0)(typescript@5.2.2))(eslint@8.50.0))(eslint-plugin-n@15.7.0(eslint@8.50.0))(eslint-plugin-promise@6.1.1(eslint@8.50.0))(eslint@8.50.0))(eslint-plugin-import@2.28.1(@typescript-eslint/parser@8.0.1(eslint@9.0.0)(typescript@5.2.2))(eslint@8.50.0))(eslint-plugin-n@15.7.0(eslint@8.50.0))(eslint-plugin-promise@6.1.1(eslint@8.50.0))(eslint@8.50.0)
-      eslint-config-standard: 17.0.0(eslint-plugin-import@2.28.1(@typescript-eslint/parser@8.0.1(eslint@9.0.0)(typescript@5.2.2))(eslint@8.50.0))(eslint-plugin-n@15.7.0(eslint@8.50.0))(eslint-plugin-promise@6.1.1(eslint@8.50.0))(eslint@8.50.0)
-      eslint-config-standard-jsx: 11.0.0(eslint-plugin-react@7.33.2(eslint@8.50.0))(eslint@8.50.0)
+      eslint-config-semistandard: 17.0.0(eslint-config-standard@17.0.0(eslint-plugin-import@2.28.1(@typescript-eslint/parser@8.0.1(eslint@9.0.0)(typescript@5.2.2))(eslint@9.0.0))(eslint-plugin-n@15.7.0(eslint@8.50.0))(eslint-plugin-promise@6.1.1(eslint@8.50.0))(eslint@8.50.0))(eslint-plugin-import@2.28.1(@typescript-eslint/parser@8.0.1(eslint@9.0.0)(typescript@5.2.2))(eslint@9.0.0))(eslint-plugin-n@15.7.0(eslint@8.50.0))(eslint-plugin-promise@6.1.1(eslint@8.50.0))(eslint@8.50.0)
+      eslint-config-standard: 17.0.0(eslint-plugin-import@2.28.1(@typescript-eslint/parser@8.0.1(eslint@9.0.0)(typescript@5.2.2))(eslint@9.0.0))(eslint-plugin-n@15.7.0(eslint@8.50.0))(eslint-plugin-promise@6.1.1(eslint@8.50.0))(eslint@8.50.0)
+      eslint-config-standard-jsx: 11.0.0(eslint-plugin-react@7.33.2(eslint@9.0.0))(eslint@8.50.0)
       eslint-plugin-import: 2.28.1(@typescript-eslint/parser@8.0.1(eslint@9.0.0)(typescript@5.2.2))(eslint@8.50.0)
       eslint-plugin-n: 15.7.0(eslint@8.50.0)
       eslint-plugin-promise: 6.1.1(eslint@8.50.0)
